@@ -1,1 +1,46 @@
-/* место для вашего кода */
+.background-settings {
+    background-color: #FFFFFF;
+    ;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 92px 24px 91px;
+}
+
+
+.header__menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style: circle;
+    
+}
+
+.header__logo {
+    width: 148px;
+    height: 105px;
+    top: -2px;
+    left: 454px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.cover {
+    padding: 91px 15px 176px;
+}
+
+.lots {
+    padding: 176px 24px 177px;
+}
+
+.about {
+    padding: 177px 9px 181px;
+}
+
+.footer {
+    padding: 181px 49px 49px;
+}

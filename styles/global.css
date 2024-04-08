@@ -6,6 +6,11 @@
 
 body {
   width: 1100px;
+  height: 2980px;
+  top: -1490px;
+  left: -550px;
+  gap: 0px;
+  opacity: 0px;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
 }
