@@ -3,21 +3,33 @@
     ;
 }
 
-
+li {
+    list-style: circle;
+}
 
 .header {
     display: flex;
-    justify-content: space-between;
-    padding: 92px 24px 91px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1052px;
+    height: 105px;
+    margin: 92px 24px 91px 24px;
 }
 
-
-.header__menu{
+.heaer__menu {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    list-style: circle;
-    
+    width: 388px;
+    height: 23px;
+}
+
+.header__links-list{
+    display: inline-flex;
+    justify-content: space-around;
+    font-family: Raleway sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
 }
 
 .header__logo {
@@ -30,12 +42,23 @@
 }
 
 .cover {
-    padding: 91px 15px 176px;
+    display: flex;
+    padding: 0px 15px 176px 15px;
+    
+    
+}
+.main-name{
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    text-transform: uppercase;
+    color: white;
 }
 
 .lots {
     padding: 176px 24px 177px;
 }
+
 
 .about {
     padding: 177px 9px 181px;
